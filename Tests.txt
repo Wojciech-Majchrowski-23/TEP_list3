@@ -1,0 +1,37 @@
+// regular tree build and calculating result
+enter + * 5 sin x * + a b 8
+vars
+print
+comp 2 3 0
+
+// TreeBuildErrors - Repair
+enter + * 5
+print
+vars
+comp 10
+
+// TreeBuildErrors - Redundant arguments
+enter + 1 1 2
+print
+enter * $a 5a1b?
+print
+vars
+
+// Calculation errors - wrong number of constants for comp and /0
+enter / x y
+vars
+comp 10
+comp 10 0
+comp 10 2
+
+// join logic
+enter * 5 x
+print
+vars
+join + a b
+print
+vars
+comp 3 4 5
+
+// exit
+exit

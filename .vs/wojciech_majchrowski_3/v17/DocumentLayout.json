@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{519D1310-CA22-40B9-98E9-DC0D79317CC6}|wojciech_majchrowski_3.vcxproj|C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\wojciech_majchrowski_3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{519D1310-CA22-40B9-98E9-DC0D79317CC6}|wojciech_majchrowski_3.vcxproj|solutionrelative:wojciech_majchrowski_3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{519D1310-CA22-40B9-98E9-DC0D79317CC6}|wojciech_majchrowski_3.vcxproj|C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\CUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{519D1310-CA22-40B9-98E9-DC0D79317CC6}|wojciech_majchrowski_3.vcxproj|solutionrelative:CUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{519D1310-CA22-40B9-98E9-DC0D79317CC6}|wojciech_majchrowski_3.vcxproj|C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\CNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{519D1310-CA22-40B9-98E9-DC0D79317CC6}|wojciech_majchrowski_3.vcxproj|solutionrelative:CNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{519D1310-CA22-40B9-98E9-DC0D79317CC6}|wojciech_majchrowski_3.vcxproj|C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\CError.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{519D1310-CA22-40B9-98E9-DC0D79317CC6}|wojciech_majchrowski_3.vcxproj|solutionrelative:CError.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{519D1310-CA22-40B9-98E9-DC0D79317CC6}|wojciech_majchrowski_3.vcxproj|C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\CTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{519D1310-CA22-40B9-98E9-DC0D79317CC6}|wojciech_majchrowski_3.vcxproj|solutionrelative:CTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{519D1310-CA22-40B9-98E9-DC0D79317CC6}|wojciech_majchrowski_3.vcxproj|C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\CNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{519D1310-CA22-40B9-98E9-DC0D79317CC6}|wojciech_majchrowski_3.vcxproj|solutionrelative:CNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{519D1310-CA22-40B9-98E9-DC0D79317CC6}|wojciech_majchrowski_3.vcxproj|C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\CError.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{519D1310-CA22-40B9-98E9-DC0D79317CC6}|wojciech_majchrowski_3.vcxproj|solutionrelative:CError.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{519D1310-CA22-40B9-98E9-DC0D79317CC6}|wojciech_majchrowski_3.vcxproj|C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\CTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{519D1310-CA22-40B9-98E9-DC0D79317CC6}|wojciech_majchrowski_3.vcxproj|solutionrelative:CTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{519D1310-CA22-40B9-98E9-DC0D79317CC6}|wojciech_majchrowski_3.vcxproj|C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\CUI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{519D1310-CA22-40B9-98E9-DC0D79317CC6}|wojciech_majchrowski_3.vcxproj|solutionrelative:CUI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "wojciech_majchrowski_3.cpp",
+              "DocumentMoniker": "C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\wojciech_majchrowski_3.cpp",
+              "RelativeDocumentMoniker": "wojciech_majchrowski_3.cpp",
+              "ToolTip": "C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\wojciech_majchrowski_3.cpp",
+              "RelativeToolTip": "wojciech_majchrowski_3.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-09T12:33:41.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CUI.cpp",
+              "DocumentMoniker": "C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\CUI.cpp",
+              "RelativeDocumentMoniker": "CUI.cpp",
+              "ToolTip": "C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\CUI.cpp",
+              "RelativeToolTip": "CUI.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-14T15:54:59.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CUI.h",
+              "DocumentMoniker": "C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\CUI.h",
+              "RelativeDocumentMoniker": "CUI.h",
+              "ToolTip": "C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\CUI.h",
+              "RelativeToolTip": "CUI.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-14T15:52:57.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CTree.cpp",
+              "DocumentMoniker": "C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\CTree.cpp",
+              "RelativeDocumentMoniker": "CTree.cpp",
+              "ToolTip": "C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\CTree.cpp",
+              "RelativeToolTip": "CTree.cpp",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAiwLsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-12T09:12:50.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CTree.h",
+              "DocumentMoniker": "C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\CTree.h",
+              "RelativeDocumentMoniker": "CTree.h",
+              "ToolTip": "C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\CTree.h",
+              "RelativeToolTip": "CTree.h",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-11T10:39:41.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CError.cpp",
+              "DocumentMoniker": "C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\CError.cpp",
+              "RelativeDocumentMoniker": "CError.cpp",
+              "ToolTip": "C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\CError.cpp",
+              "RelativeToolTip": "CError.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-15T12:47:41.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CError.h",
+              "DocumentMoniker": "C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\CError.h",
+              "RelativeDocumentMoniker": "CError.h",
+              "ToolTip": "C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\CError.h",
+              "RelativeToolTip": "CError.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-15T13:16:09.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CNode.cpp",
+              "DocumentMoniker": "C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\CNode.cpp",
+              "RelativeDocumentMoniker": "CNode.cpp",
+              "ToolTip": "C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\CNode.cpp",
+              "RelativeToolTip": "CNode.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-11T09:34:01.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CNode.h",
+              "DocumentMoniker": "C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\CNode.h",
+              "RelativeDocumentMoniker": "CNode.h",
+              "ToolTip": "C:\\Users\\majch\\OneDrive\\Dokumenty\\Wojtek\\STUDIA\\SEMESTR_3\\TEP\\wojciech_majchrowski_3\\CNode.h",
+              "RelativeToolTip": "CNode.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-09T12:35:10.022Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
