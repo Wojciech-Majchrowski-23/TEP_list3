@@ -33,6 +33,9 @@ private:
     static const std::string opSin;
     static const std::string opCos;
 
+    static const std::string S_DEFAULT_TOKEN;
+    static const double D_DEFAULT_VALUE;
+
     double getValueFromMap(const std::map<std::string, double>& cVariableMap, CError& cError) const;
     double getValueOperator1(const std::map<std::string, double>& cVariableMap, CError& cError) const;
     double getValueOperator2(const std::map<std::string, double>& cVariableMap, CError& cError) const;
@@ -51,6 +54,8 @@ public:
     std::string sTostring();
     CNode* cNodeFindFirstLeaf();
     bool bReplaceChild(CNode* cNodeOldChild, CNode* cNodeNewChild);
+
+    void vIncreaseLeafCount(int& iNumberOfLeafs);
 
     static bool bIsConstant(const std::string& sToken);
     static bool bIsOperator(const std::string& sToken);

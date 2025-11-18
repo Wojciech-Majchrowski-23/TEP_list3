@@ -1,2 +1,9 @@
-﻿  CUI.cpp
+﻿  CNode.cpp
+  CTree.cpp
+  CUI.cpp
+  wojciech_majchrowski_3.cpp
+  Generating Code...
+C:\Users\majch\OneDrive\Dokumenty\Wojtek\STUDIA\SEMESTR_3\TEP\wojciech_majchrowski_3\CTree.cpp(164,1): warning C4715: 'CTree::sGetFormulaString': not all control paths return a value
+C:\Users\majch\OneDrive\Dokumenty\Wojtek\STUDIA\SEMESTR_3\TEP\wojciech_majchrowski_3\CNode.cpp(93,1): warning C4715: 'CNode::dCalculate': not all control paths return a value
+C:\Users\majch\OneDrive\Dokumenty\Wojtek\STUDIA\SEMESTR_3\TEP\wojciech_majchrowski_3\CNode.cpp(171,1): warning C4715: 'CNode::sTostring': not all control paths return a value
   wojciech_majchrowski_3.vcxproj -> C:\Users\majch\OneDrive\Dokumenty\Wojtek\STUDIA\SEMESTR_3\TEP\wojciech_majchrowski_3\x64\Debug\wojciech_majchrowski_3.exe

@@ -8,6 +8,9 @@ const std::string CNode::opDiv = "/";
 const std::string CNode::opSin = "sin";
 const std::string CNode::opCos = "cos";
 
+const std::string CNode::S_DEFAULT_TOKEN = "1";
+const double CNode::D_DEFAULT_VALUE = 1.0;
+
 CNode::CNode() : pCNode_parent(NULL), enType(CNODE_UNKNOWN), iNumberOfChildren(0), sToken(""), dValue(0.0) {}
 
 CNode::CNode(const CNode& cOther)
@@ -51,9 +54,9 @@ void CNode::vLoad(std::vector<std::string>& vecStr_tokens, int& offset, CError& 
         std::string sOperator = pCNode_parent->sToken;
         cError.vSetError("No argument for the operator '" + sOperator + "'. Filling with '1'.");
 
-        sToken = "1";
+        sToken = S_DEFAULT_TOKEN;
         setType();
-        dValue = 1.0;
+        dValue = D_DEFAULT_VALUE;
 
         return;
     }
@@ -195,6 +198,21 @@ bool CNode::bReplaceChild(CNode* cNodeOldChild, CNode* cNodeNewChild)
         }
     }
     return false;
+}
+
+void CNode::vIncreaseLeafCount(int& iNumberOfLeafs)
+{
+    if (enType == CNODE_VARIABLE || enType == CNODE_CONSTANT)
+    {
+        iNumberOfLeafs++;
+    }
+    else 
+    {
+        for (int i = 0; i < iNumberOfChildren; i++)
+        {
+            pVecCNode_children[i]->vIncreaseLeafCount(iNumberOfLeafs);
+        }
+    }
 }
 
 void CNode::setType()

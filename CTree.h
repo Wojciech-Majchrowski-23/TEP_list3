@@ -12,9 +12,11 @@ private:
 	CNode* cRoot;
 	std::set<std::string> setStr_variables;
 	std::map<std::string, double> cVariableMap;
+	int iNumberOfLeafs;
 
 	void vInitializeMap(const std::vector<double>& vecValues);
 	void vPopulateVariables();
+	void vCountLeafs();
 	static std::vector<std::string> tokenize(std::string formula, CError& cError);
 
 	CTree operator+(const CTree& cOther) const;
@@ -36,6 +38,7 @@ public:
 
 	//print
 	std::string sGetFormulaString() const;
+	int iGetNumberOfLeafs() const;
 
 	//vars
 	const std::set<std::string>& sGetVariables() const { return setStr_variables; }

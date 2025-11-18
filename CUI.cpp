@@ -54,10 +54,12 @@ void CUI::vHandleComp(const std::string& sArguments)
 
 	while (ss >> sToken)
 	{
-		vValues.push_back(std::atof(sToken.c_str()));
+		if(CNode::bIsConstant(sToken)) vValues.push_back(std::atof(sToken.c_str()));
+		else
+		{
+			cError.vSetError("Inapropriate input of comp");
+		}
 	}
-
-	double dResult = cTree.dCalculate(vValues, cError);
 
 	if (cError.bHasError())
 	{
@@ -65,6 +67,7 @@ void CUI::vHandleComp(const std::string& sArguments)
 	}
 	else
 	{
+		double dResult = cTree.dCalculate(vValues, cError);
 		std::cout << "Result: " << dResult << std::endl;
 	}
 }
@@ -92,6 +95,7 @@ void CUI::vHandleVars() const
 void CUI::vHandlePrint() const
 {
 	std::cout << cTree.sGetFormulaString() << std::endl;
+	std::cout << "Number Of Leafs: " << cTree.iGetNumberOfLeafs() << std::endl;
 }
 
 void CUI::vHandleExit()

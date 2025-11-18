@@ -2,7 +2,7 @@
 #include <sstream>
 #include <cctype>
 
-CTree::CTree(): cRoot(NULL){ }
+CTree::CTree(): cRoot(NULL), iNumberOfLeafs(0){ }
 
 CTree::~CTree()
 {
@@ -19,10 +19,12 @@ CTree::CTree(const CTree& cOther)
     {
         // gleboka kopia roota innego drzewa
         cRoot = cOther.cRoot->pClone();
+        iNumberOfLeafs = cOther.iNumberOfLeafs;
     }
     else
     {
         cRoot = NULL;
+        iNumberOfLeafs = 0;
     }
 }
 
@@ -72,6 +74,7 @@ void CTree::vJoin(std::string sFormula, CError& cError)
     *this = *this + cOtherTree;
 
     vPopulateVariables();
+    vCountLeafs();
 }
 
 void CTree::vBuildTree(std::string sFormula, CError& cError)
@@ -95,6 +98,7 @@ void CTree::vBuildTree(std::string sFormula, CError& cError)
     }
 
     vPopulateVariables();
+    vCountLeafs();
 }
 
 void CTree::vPopulateVariables()
@@ -106,6 +110,22 @@ void CTree::vPopulateVariables()
         cRoot->vFindVariables(setStr_variables);
     }
 }
+
+void CTree::vCountLeafs()
+{
+    iNumberOfLeafs = 0;
+
+    if (cRoot != NULL)
+    {
+        cRoot->vIncreaseLeafCount(iNumberOfLeafs);
+    }
+}
+
+int CTree::iGetNumberOfLeafs() const
+{
+    return iNumberOfLeafs;
+}
+
 
 
 double CTree::dCalculate(const std::vector<double>& vecValues, CError& cError)
