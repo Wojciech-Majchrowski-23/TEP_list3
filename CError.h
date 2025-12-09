@@ -12,6 +12,10 @@ public:
 
     CError();
 
+    CError(const std::string& sMessage);
+
+    CError(const CError& cOther);
+
     void vSetError(const std::string& sMessage);
 
     bool bHasError() const;

@@ -1,0 +1,3 @@
+Type = Unknown
+Error 1: File not found
+Error 2: Access denied
