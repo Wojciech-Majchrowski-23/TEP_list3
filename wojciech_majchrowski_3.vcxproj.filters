@@ -44,5 +44,14 @@
     <ClInclude Include="CUI.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CResult.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CResultSaver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMySmartPointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

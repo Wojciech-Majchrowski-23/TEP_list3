@@ -1,6 +1,8 @@
 ﻿#include "CTree.h"
 #include <sstream>
 #include <cctype>
+#include <utility>
+#include <iostream>
 
 CTree::CTree(): cRoot(NULL), iNumberOfLeafs(0){ }
 
@@ -15,21 +17,38 @@ CTree::~CTree()
 
 CTree::CTree(const CTree& cOther)
 {
+    std::cout << " [COPY] Kopiowanie drzewa \n" << std::endl;
     if (cOther.cRoot != NULL)
     {
         // gleboka kopia roota innego drzewa
         cRoot = cOther.cRoot->pClone();
         iNumberOfLeafs = cOther.iNumberOfLeafs;
+
     }
     else
     {
         cRoot = NULL;
         iNumberOfLeafs = 0;
     }
+    setStr_variables = cOther.setStr_variables;
+}
+
+CTree::CTree(CTree&& cOther)
+{
+    std::cout << " [MOVE] Przenoszenie drzewa \n" << std::endl;
+    cRoot = cOther.cRoot;
+
+    iNumberOfLeafs = cOther.iNumberOfLeafs;
+
+    setStr_variables = std::move(cOther.setStr_variables);
+
+    cOther.cRoot = NULL;
+    cOther.iNumberOfLeafs = 0;
 }
 
 CTree& CTree::operator=(const CTree& cOther)
 {
+    std::cout << " [COPY OP=] Operator kopiowania \n" << std::endl;
     if (this == &cOther)
     {
         return *this;
@@ -45,6 +64,27 @@ CTree& CTree::operator=(const CTree& cOther)
     {
         cRoot = NULL;
     }
+    setStr_variables = cOther.setStr_variables;
+    return *this;
+}
+
+CTree& CTree::operator=(CTree&& cOther)
+{
+    std::cout << " [MOVE OP=] Operator przenoszenia \n" << std::endl;
+    if (this == &cOther)
+    {
+        return *this;
+    }
+
+    if(cRoot != NULL)
+        delete cRoot;
+
+    cRoot = cOther.cRoot;
+    iNumberOfLeafs = cOther.iNumberOfLeafs;
+    setStr_variables = std::move(cOther.setStr_variables);
+
+    cOther.cRoot = NULL;
+    cOther.iNumberOfLeafs = 0;
 
     return *this;
 }
@@ -64,6 +104,18 @@ CTree CTree::operator+(const CTree& cOther) const
     pCNodeLeafParent->bReplaceChild(pCNodeLeaf, pClonedOtherRoot);
 
 	return thisTreeCopy;
+}
+
+
+CResult<CTree, CError> CTree::createTree(std::string sFormula, CError& cError)
+{
+    CTree cTreeTemp;
+    cTreeTemp.vBuildTree(sFormula, cError);
+    if (cError.bHasError())
+    {
+        return CResult<CTree, CError>::cFail(/*new CError(cError)*/ cTreeTemp);
+    }
+    return CResult<CTree, CError>::cOk(cTreeTemp);
 }
 
 void CTree::vJoin(std::string sFormula, CError& cError)
@@ -160,6 +212,7 @@ std::string CTree::sGetFormulaString() const
     {
         return cRoot->sTostring();
     }
+    return "puste drzewo";
 
 }
 

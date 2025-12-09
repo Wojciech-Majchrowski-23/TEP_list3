@@ -132,8 +132,11 @@
   <ItemGroup>
     <ClInclude Include="CError.h" />
     <ClInclude Include="CNode.h" />
+    <ClInclude Include="CResult.h" />
+    <ClInclude Include="CResultSaver.h" />
     <ClInclude Include="CTree.h" />
     <ClInclude Include="CUI.h" />
+    <ClInclude Include="CMySmartPointer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

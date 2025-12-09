@@ -1,4 +1,5 @@
 ﻿#include "CNode.h"
+#include <iostream>
 #include <cmath>
 
 const std::string CNode::opAdd = "+";
@@ -15,6 +16,7 @@ CNode::CNode() : pCNode_parent(NULL), enType(CNODE_UNKNOWN), iNumberOfChildren(0
 
 CNode::CNode(const CNode& cOther)
 {
+    std::cout << " [COPY] Kopiowanie wezla \n" << std::endl;
     sToken = cOther.sToken;
     enType = cOther.enType;
     dValue = cOther.dValue;

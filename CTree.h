@@ -1,6 +1,7 @@
 ﻿#pragma once
 #include "CError.h"
 #include "CNode.h"
+#include "CResult.h"
 #include <set>
 #include <vector>
 #include <string>
@@ -19,13 +20,17 @@ private:
 	void vCountLeafs();
 	static std::vector<std::string> tokenize(std::string formula, CError& cError);
 
-	CTree operator+(const CTree& cOther) const;
-	CTree& operator=(const CTree& cOther);
 
 public:
 	CTree();
 	~CTree();
 	CTree(const CTree& cOther);
+	CTree(CTree&& cOther);
+	CTree& operator=(const CTree& cOther);
+	CTree& operator=(CTree&& cOther);
+	CTree operator+(const CTree& cOther) const;
+
+	static CResult<CTree, CError> createTree(std::string sFormula, CError& cError);
 
 	//join
 	void vJoin(std::string sFormula, CError& cError);
